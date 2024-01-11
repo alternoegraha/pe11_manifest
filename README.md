@@ -1,11 +1,13 @@
-# Pixel Experience #
+# Pixel Experience 11 (revived, kinda) #
+
+> completely WIP stuff now. Be careful using this repo
 
 ### Sync ###
 
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/PixelExperience/manifest -b eleven
+repo init -u https://github.com/PixelExperience/manifest -b eleven --git-lfs
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
