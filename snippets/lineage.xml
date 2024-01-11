@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-18.1" />
+
+  <!-- Track LineageOS fork of some components -->
+  <project path="cts" name="android_cts" remote="lineage" groups="cts,pdk-cw-fs,pdk-fs" />
+  <project path="libcore" name="android_libcore" remote="lineage" groups="pdk" />
+  <project path="external/aac" name="android_external_aac" remote="lineage" groups="pdk" />
+  <project path="external/dtc" name="android_external_dtc" remote="lineage" groups="pdk"/>
+  <project path="external/expat" name="android_external_expat" remote="lineage" groups="pdk" />
+  <project path="external/freetype" name="android_external_freetype" remote="lineage" groups="pdk" />
+  <project path="external/libavc" name="android_external_libavc" remote="lineage" groups="pdk" />
+  <project path="external/libcups" name="android_external_libcups" remote="lineage" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/libexif" name="android_external_libexif" remote="lineage" groups="pdk" />
+  <project path="external/libvpx" name="android_external_libvpx" remote="lineage" groups="pdk" />
+  <project path="external/libxml2" name="android_external_libxml2" remote="lineage" groups="pdk,libxml2" />
+  <project path="external/pdfium" name="android_external_pdfium" remote="lineage" groups="pdk" />
+  <project path="external/robolectric-shadows" name="android_external_robolectric-shadows" remote="lineage" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/tremolo" name="android_external_tremolo" remote="lineage" groups="pdk" />
+  <project path="external/webp" name="android_external_webp" remote="lineage" groups="pdk,qcom_msm8x26" />
+  <project path="external/zlib" name="android_external_zlib" remote="lineage" groups="pdk" />
+  <project path="frameworks/minikin" name="android_frameworks_minikin" remote="lineage" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/ml" name="android_frameworks_ml" remote="lineage" groups="pdk" />
+  <project path="packages/apps/QuickAccessWallet" name="android_packages_apps_QuickAccessWallet" remote="lineage" groups="pdk-fs" />
+  <project path="system/ca-certificates" name="android_system_ca-certificates" remote="lineage" groups="pdk" />
+  <project path="system/tools/aidl" name="android_system_tools_aidl" remote="lineage" groups="pdk" />
+
+  <!-- Track prebuilt Chromium webviews -->
+  <project path="external/chromium-webview/patches" name="android_external_chromium-webview_patches" remote="lineage" groups="pdk" revision="main" >
+    <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
+    <linkfile src="CleanSpec.mk" dest="external/chromium-webview/CleanSpec.mk" />
+    <linkfile src="README" dest="external/chromium-webview/README" />
+  </project>
+  <project path="external/chromium-webview/prebuilt/arm" name="android_external_chromium-webview_prebuilt_arm" remote="lineage" groups="pdk" revision="main" />
+  <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="lineage" groups="pdk" revision="main" />
+  <project path="external/chromium-webview/prebuilt/x86" name="android_external_chromium-webview_prebuilt_x86" remote="lineage" groups="pdk" revision="main" />
+  <project path="external/chromium-webview/prebuilt/x86_64" name="android_external_chromium-webview_prebuilt_x86_64" remote="lineage" groups="pdk" revision="main" />
+
+</manifest>

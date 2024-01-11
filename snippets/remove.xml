@@ -64,13 +64,24 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- External repos -->
+  <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/boringssl" />
+  <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/cldr" />
+  <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/expat" />
+  <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/guice" />
   <remove-project name="platform/external/icu" />
+  <remove-project name="platform/external/libavc" />
+  <remove-project name="platform/external/libcups" />
   <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/libexif" />
+  <remove-project name="platform/external/libvpx" />
+  <remove-project name="platform/external/libxml2" />
+  <remove-project name="platform/external/pdfium" />
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/robolectric-shadows" />
   <remove-project name="platform/external/selinux" />
@@ -78,11 +89,15 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/tremolo" />
+  <remove-project name="platform/external/webp" />
   <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/zlib" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/minikin" />
+  <remove-project name="platform/frameworks/ml" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/net/ims" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
@@ -96,6 +111,7 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/build/blueprint" />
+  <remove-project name="platform/cts" />
   <remove-project name="platform/development" />
   <remove-project name="platform/libcore" />
   <remove-project name="platform/platform_testing" />
@@ -147,6 +163,7 @@
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <remove-project name="platform/packages/apps/Protips" />
+  <remove-project name="platform/packages/apps/QuickAccessWallet" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/SafetyRegulatoryInfo" />
   <remove-project name="platform/packages/apps/Settings" />
@@ -181,6 +198,7 @@
   <!-- System repos -->
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/ca-certificates" />
   <remove-project name="platform/system/incremental_delivery" />
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/libufdt" />
