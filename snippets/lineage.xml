@@ -25,6 +25,7 @@
   <project path="frameworks/minikin" name="android_frameworks_minikin" remote="lineage" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="android_frameworks_ml" remote="lineage" groups="pdk" />
   <project path="packages/apps/QuickAccessWallet" name="android_packages_apps_QuickAccessWallet" remote="lineage" groups="pdk-fs" />
+  <project path="packages/services/BuiltInPrintService" name="android_packages_services_BuiltInPrintService" remote="lineage" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/ca-certificates" name="android_system_ca-certificates" remote="lineage" groups="pdk" />
   <project path="system/tools/aidl" name="android_system_tools_aidl" remote="lineage" groups="pdk" />
 
