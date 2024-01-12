@@ -7,7 +7,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/PixelExperience/manifest -b eleven --git-lfs
+repo init -u https://github.com/alternoegraha/pe11_manifest -b eleven --git-lfs
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
